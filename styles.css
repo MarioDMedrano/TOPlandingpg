@@ -40,6 +40,7 @@ button {
     padding: 0.5rem 0.8rem;
     border: none;
     border-radius: 45px;
+    border-color: #f9f9f9;
 
 }
 
@@ -111,11 +112,40 @@ button {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 3rem calc((100vw - 1400px) / 2);
+    padding: 3rem calc((99vw - 1200px) / 2);
     margin: 0;
-    line-height: 3.5;
-    max-width: 450px;
-
+    line-height: 1.2;
+    max-width: 445px;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
 }
 
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem calc((99vw - 1200px) / 2);
+    background-color: #f9f9f9;
+}
 
+.in-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem calc((99vw - 1200px) / 2);
+    gap: 150px;
+    background-color: #3882f6;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 45px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9f9f9;
+
+}
